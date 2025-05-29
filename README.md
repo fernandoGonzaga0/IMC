@@ -72,7 +72,5 @@ css
 Copiar
 Editar
 João, você possui 22.86 de IMC. Seu IMC é classificado como NORMAL.
-📄 Licença
-Este projeto está licenciado sob a MIT License.
 
 Desenvolvido por Fernando Gonzaga 💻
