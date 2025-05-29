@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script src="./index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">  </head>
+    <body class="bg-blue-800 flex flex-col items-center min-h-screen">
+
+        <main class="flex flex-col items-center">
+            <p class="text-3xl font-bold text-white p-4">Calculadora - IMC</p>
+    
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+                <div class="flex flex-col gap-6">
+                    <div>
+                        <button id="botao_IMC" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">IMC &#10067</button>
+                    </div>
+                    <div>
+                        <label for="nome" class="block text-gray-700">Nome:</label>
+                        <input type="text" id="input_nome" class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div>
+                        <label for="altura" class="block text-gray-700">Altura (cm):</label>
+                        <input type="number" id="input_altura" class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div>
+                        <label for="peso" class="block text-gray-700">Peso (kg):</label>
+                        <input type="number" id="input_peso" class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div>
+                        <button id="botao_calcular" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Calcular</button>
+                    </div>
+                    <div>
+                        <button id="botao_reiniciar" class="w-full bg-red-500 text-white py-2 rounded hover:bg-blue-600">Reiniciar</button>
+                    </div>
+                    <div>
+                        <textarea id="text_area_resultado" class="w-full p-2 border border-gray-300 rounded" cols="30" rows="4" placeholder="O resultado será exibido aqui..."></textarea>
+                    </div>
+                </div>      
+            </div>
+    
+        </main>  
+    
+        <footer class="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-white text-sm p-2">
+            @fernando-gonzaga
+        </footer>
+        
+    </body>
+
+</html>
